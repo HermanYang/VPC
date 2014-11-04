@@ -18,7 +18,7 @@ using std::ostringstream;
 
 VideoPlayer::VideoPlayer()
 {
-    _player_path = "vlc.exe";
+    _player_path = "vlc";
 }
 
 VideoPlayer::VideoPlayer(const char* player_path)
